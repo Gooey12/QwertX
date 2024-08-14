@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +12,21 @@
     <title>QwertX</title>
 
 </head>
-<body data-bs-theme=dark>
+<body data-bs-theme="dark">
 <center>
 
     <br><br><br>
 
-    <div id="border">
-        <textarea id="textInput" class="textArea w-sm-100 w-25"></textarea><br>
-        <textarea id="Output" class="textArea w-sm-100 w-25" disabled></textarea><br>
+    <div id="border" class="container col-10 col-lg-4">
+    <div class="row">
+        <div class="col-12">
+        <textarea id="textInput" class="textArea w-100"></textarea><br>
+        </div>
+        <div class="col-12">
+        <textarea id="Output" class="textArea w-100" disabled=""></textarea><br>
+        </div>
     </div>
+</div>
     <button id="copyBtn" class="btn btn-outline-success"><i class="bi bi-clipboard-plus"></i></button>
     <button id="translateBtn" class="btn btn-outline-success">Translate</button>
     <button id="infoBtn" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal"><i class="bi bi-info-circle"></i></button>
@@ -46,7 +51,7 @@
 
 <footer>
     <hr>
-    <p><a href="https://gooey12.github.io" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Gooey</a> &copy; - 2024</p>
+    <p><a href="https://gooey12.github.io" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Gooey</a> © - 2024</p>
 </footer>
 </center>
 <script src="app.js"></script>
