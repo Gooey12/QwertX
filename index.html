@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+    <title>QwertX</title>
+
+</head>
+<body data-bs-theme=dark>
+<center>
+
+    <br><br><br>
+
+    <div id="border">
+        <textarea id="textInput" class="textArea"></textarea><br>
+        <textarea id="Output" class="textArea" disabled></textarea><br>
+    </div>
+    <button id="copyBtn" class="btn btn-outline-success"><i class="bi bi-clipboard-plus"></i></button>
+    <button id="translateBtn" class="btn btn-outline-success">Translate</button>
+    <button id="infoBtn" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal"><i class="bi bi-info-circle"></i></button>
+    <a class="btn btn-outline-success" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+    
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="modal-body m-0 p-1">
+              <img src="./assets/qwertx.png" class="w-100 rounded-1">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <br><br><br><br>
+
+<footer>
+    <hr>
+    <p><a href="https://gooey12.github.io" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Gooey</a> &copy; - 2024</p>
+</footer>
+</center>
+<script src="app.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
